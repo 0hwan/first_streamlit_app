@@ -48,4 +48,4 @@ add_my_fruit = '0hwan'
 streamlit.write('Thank for adding ', add_my_fruit)
 
 #This will not work correctly, but just go with it for now
-my_cur.execut("insert into fruit_load_list values('from streamlit')")
+my_cur.execute("insert into fruit_load_list values('from streamlit')")
